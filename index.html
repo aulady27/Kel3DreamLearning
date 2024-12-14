@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dream Learning</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #e8eaf6; /* warna latar belakang */
+            font-family: Arial, sans-serif;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+        .container {
+            text-align: center;
+        }
+        .title {
+            font-weight: bold;
+            font-size: 2rem;
+            margin-bottom: 100px;
+        }
+        .subtitle {
+            font-size: 1.2rem;
+            color: #666;
+            margin-top: 100px;
+        }
+        .option {
+            text-align: center;
+            cursor: pointer;
+            transition: transform 0.3s;
+        }
+        .option img {
+            width: 150px; /* ukuran gambar yang sama */
+            height: 200px;
+        }
+        .option:hover {
+            transform: scale(1.05);
+        }
+        .option a {
+            text-decoration: none;
+            color: #333;
+            font-size: 1.1rem;
+            font-weight: bold;
+            display: block;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="title">Dream Learning</div>
+        <div class="row justify-content-center">
+            <div class="col-md-3 col-6 option">
+                <img src="dosen.png" alt="Dosen">
+                <a href="logindosen.html">Dosen</a>
+            </div>
+            <div class="col-md-3 col-6 option">
+                <img src="mahasiswa.png" alt="Mahasiswa">
+                <a href="login.html">Mahasiswa</a>
+            </div>
+        </div>
+        <div class="subtitle">Login Sebagai</div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+

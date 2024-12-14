@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dream Learning</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+ <style>
+        body {
+            background-color: #f8f9fa;
+        }
+        .sidebar {
+            height: 100vh;
+            background-color: #e9ecef;
+            padding-top: 20px;
+        }
+        .sidebar a {
+            text-decoration: none;
+            color: black;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 10px 20px;
+            border-radius: 8px;
+        }
+        .sidebar a.active {
+            background-color: black;
+            color: white;
+        }
+
+        .table-container {
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        .profile {
+            text-align: center;
+        }
+
+        .profile img {
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Sidebar -->
+            <div class="col-md-2 sidebar">
+                <h4 class="text-center">Dream Learning</h4>
+               <nav class="nav flex-column">
+                  <a href="homedosen.html" class="nav-link"><i class="bi bi-grid"></i> Dashboard</a>
+                  <a href="ClassPageDosen.html" class="nav-link"><i class="bi bi-journal-text"></i> Class</a>
+                  <a href="quizpage.html" class="nav-link"><i class="bi bi-clock-history"></i> Quiz</a>
+                  <a href="nilai.html" class="nav-link active"><i class="bi bi-bar-chart-line"></i> Nilai</a>
+               </nav>
+            </div>
+
+            <!-- Main Content -->
+            <div class="col-md-8 p-4">
+                <h4 class="mb-4">Desain & Implementasi Sistem</h4>
+                <div class="table-container">
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>Nama</th>
+                                <th>NIM</th>
+                                <th>Nilai</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Aulady Fibra SG</td>
+                                <td>202251215</td>
+                                <td>100</td>
+                            </tr>
+                            <tr>
+                                <td>Aulady Fibra SG</td>
+                                <td>202251215</td>
+                                <td>100</td>
+                            </tr>
+                            <tr>
+                                <td>Aulady Fibra SG</td>
+                                <td>202251215</td>
+                                <td>100</td>
+                            </tr>
+                            <tr>
+                                <td>Aulady Fibra SG</td>
+                                <td>202251215</td>
+                                <td>100</td>
+                            </tr>
+                            <tr>
+                                <td>Aulady Fibra SG</td>
+                                <td>202251215</td>
+                                <td>100</td>
+                            </tr>
+                            <tr>
+                                <td>Aulady Fibra SG</td>
+                                <td>202251215</td>
+                                <td>100</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <button class="btn btn-dark mt-3">Update</button>
+                </div>
+            </div>
+
+            <!-- Profile -->
+            <div class="col-md-2 p-3">
+                <div class="profile">
+                    <img src="lecture.PNG">
+                    <h5 class="mt-3">Jokowi Widodo</h5>
+                    <p>Lecturer</p>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- Bootstrap JS and dependencies -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<!-- Bootstrap Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.4.0/font/bootstrap-icons.min.css">
+</body>
+</html>

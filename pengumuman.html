@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dream Learning</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+ <style>
+        body {
+         background-color: #f8f9fa;
+        }
+        .sidebar {
+            height: 100vh;
+            background-color: #e9ecef;
+            padding-top: 20px;
+        }
+        .sidebar a {
+            text-decoration: none;
+            color: black;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 10px 20px;
+            border-radius: 8px;
+        }
+        .sidebar a.active {
+            background-color: black;
+            color: white;
+        }
+        .card {
+            border: none;
+        }
+
+        .profile-card {
+            text-align: center;
+        }
+
+        .profile-card img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+        }
+        .calendar {
+            margin-top: auto; 
+            text-align: center;
+            padding-top: 250px;
+            border-top: 1px solid #ddd;
+        }
+
+        .calendar p {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .calendar-dates {
+            display: grid;
+            grid-template-columns: repeat(7, 1fr);
+            gap: 5px;
+            font-size: 12px;
+            color: #666;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Sidebar -->
+            <div class="col-md-2 col-12 sidebar">
+               <h4 class="text-center">Dream Learning</h4>
+               <nav class="nav flex-column">
+                  <a href="homedosen.html" class="nav-link active"><i class="bi bi-grid"></i> Dashboard</a>
+                  <a href="ClassPageDosen.html" class="nav-link"><i class="bi bi-journal-text"></i> Class</a>
+                  <a href="quizpage.html" class="nav-link"><i class="bi bi-clock-history"></i> Quiz</a>
+                  <a href="nilai.html" class="nav-link"><i class="bi bi-bar-chart-line"></i> Nilai</a>
+               </nav>
+            </div>
+
+            <!-- Main Content -->
+            <div class="col-md-7 p-4">
+                <center>
+                <h3>Selamat Datang Jokowi</h3>
+                </center>
+
+                <!-- Announcement Section -->
+                <div>
+                    <h5><i class="fas fa-bullhorn"></i> Pengumuman</h5>
+                    <div class="announcement">
+                        <strong>Desain & Implementasi Sistem</strong>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer imperdiet pellentesque
+                            dignissim. Aenean ut congue augue. Nam aliquet nisi mauris, non vehicula neque pretium
+                            varius. Pellentesque ut tincidunt metus, a elementum lorem. Fusce suscipit venenatis commodo.
+                            Donec in sem sit amet metus hendrerit volutpat non id urna. Maecenas lacus magna, varius id
+                            sagittis vel, blandit id nisi. Integer semper, mauris quis vestibulum ultricies, nisi justo
+                            tincidunt ex, vitae scelerisque ipsum ipsum vitae elit. Vivamus iaculis arcu risus, laoreet
+                            hendrerit ligula vulputate quis. Maecenas pretium magna sed dolor sagittis dapibus. Quisque
+                            ut nunc orci. Duis nec porttitor tortor.
+                        </p>
+                    </div>
+                    <a href="homedosenpengumuman.html" class="btn btn-dark mt-3">
+                    <i class="fas fa-paper-plane"></i> Kirim
+                    </a>
+                </div>
+            </div>
+
+            <!-- Profile & Calendar -->
+            <div class="col-md-3 p-4">
+                <div class="profile-card">
+                    <img src="lecture.PNG" alt="Profile Picture">
+                    <h5><i class="fas fa-user"></i> Jokowi widodo</h5>
+                    <p> Lecturer</p>
+                </div>
+
+                <div class="calendar mt-4">
+                    <h5><i class="fas fa-calendar-alt"></i> Oktober 2024</h5>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <button class="btn btn-light"><i class="fas fa-chevron-left"></i></button>
+                        <span class="active-date">22</span>
+                        <button class="btn btn-light"><i class="fas fa-chevron-right"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- Bootstrap JS and dependencies -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<!-- Bootstrap Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.4.0/font/bootstrap-icons.min.css">
+</body>
+
+</html>
